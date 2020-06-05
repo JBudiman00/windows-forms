@@ -1,0 +1,10 @@
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\bin\Debug\BasicProgramming.exe.config
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\bin\Debug\BasicProgramming.exe
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\bin\Debug\BasicProgramming.pdb
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.csprojAssemblyReference.cache
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.Form1.resources
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.Properties.Resources.resources
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.csproj.GenerateResource.cache
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.csproj.CoreCompileInputs.cache
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.exe
+C:\Dev\MyExperimentalProjects\BasicProgramming\BasicProgramming\obj\Debug\BasicProgramming.pdb
