@@ -47,5 +47,12 @@ namespace BasicProgramming
             string text = lstCity.GetItemText(lstCity.SelectedItem);
             MessageBox.Show(text);
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            String name = txtName.Text;
+            String address = txtAddress.Text;
+            MessageBox.Show(name + " " + address);
+        }
     }
 }
