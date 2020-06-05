@@ -28,6 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Label");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Button");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Checkbox");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +50,10 @@
             this.chkASP = new System.Windows.Forms.CheckBox();
             this.lblPL = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -200,11 +211,39 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(266, 15);
+            this.treeView1.Name = "treeView1";
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Label";
+            treeNode2.Name = "Node3";
+            treeNode2.Text = "Button";
+            treeNode3.Name = "Node4";
+            treeNode3.Text = "Checkbox";
+            treeNode4.Name = "Node0";
+            treeNode4.Text = "Root";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode4});
+            this.treeView1.Size = new System.Drawing.Size(121, 97);
+            this.treeView1.TabIndex = 11;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(266, 135);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(289, 310);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(227, 447);
+            this.ClientSize = new System.Drawing.Size(555, 447);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.lblPL);
             this.Controls.Add(this.chkASP);
@@ -219,6 +258,7 @@
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,6 +280,8 @@
         private System.Windows.Forms.CheckBox chkASP;
         private System.Windows.Forms.Label lblPL;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
